@@ -177,3 +177,33 @@ footer a {
     background-color: #212529;
     color: #ced4da
 }
+
+@media (max-width: 800px) {
+    h1 {
+        text-align: center;
+    }
+    header nav {
+        justify-content: center;
+        align-content: center;
+    }
+    .links {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        width: 15%;
+    }
+
+    nav a {
+        text-align: center;
+        margin-top: 2%;
+    }
+
+    .title {
+        flex-direction: column;
+    }
+    
+    .projects div {
+        width: 40%;
+    }
+}
